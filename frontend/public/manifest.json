@@ -1,0 +1,64 @@
+{
+  "short_name": "Olivia's Tic Tac Toe",
+  "name": "Olivia's Tic Tac Toe - Play & Compete",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#9575CD",
+  "background_color": "#f5f5f5",
+  "description": "Play Olivia's Tic Tac Toe! Challenge AI or friends, track your stats, and climb the global leaderboard.",
+  "shortcuts": [
+    {
+      "name": "Play Game",
+      "short_name": "Play",
+      "description": "Start a new Tic Tac Toe game",
+      "url": "/game",
+      "icons": [
+        {
+          "src": "android-chrome-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "View Leaderboard",
+      "short_name": "Leaderboard",
+      "description": "Check out the global leaderboard",
+      "url": "/leaderboard",
+      "icons": [
+        {
+          "src": "android-chrome-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Profile",
+      "short_name": "Profile",
+      "description": "View or update your profile",
+      "url": "/profile",
+      "icons": [
+        {
+          "src": "android-chrome-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
