@@ -1,0 +1,42 @@
+0 verbose cli D:\2025-05-01\nodejs22\node.exe D:\2025-05-01\nodejs22\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.3
+2 info using node@v22.19.0
+3 silly config load:file:D:\2025-05-01\nodejs22\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\19931\AppData\Local\Microsoft\TypeScript\6.0\.npmrc
+5 silly config load:file:C:\Users\19931\.npmrc
+6 silly config load:file:C:\Users\19931\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install types-registry@latest
+8 verbose argv "install" "--ignore-scripts" "types-registry@latest"
+9 verbose logfile logs-max:10 dir:d:\game\frontend\.npm-cache\_logs\2026-09-27T04_59_21_931Z-
+10 verbose logfile d:\game\frontend\.npm-cache\_logs\2026-09-27T04_59_21_931Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly packumentCache corgi:https://registry.npmjs.org/types-registry cache-miss
+14 http fetch GET 200 https://registry.npmjs.org/types-registry 2397ms (cache miss)
+15 silly packumentCache corgi:https://registry.npmjs.org/types-registry set size:undefined disposed:false
+16 silly idealTree buildDeps
+17 silly fetch manifest types-registry@0.1.788
+18 silly packumentCache full:https://registry.npmjs.org/types-registry cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/types-registry 2087ms (cache miss)
+20 silly packumentCache full:https://registry.npmjs.org/types-registry set size:undefined disposed:false
+21 silly placeDep ROOT types-registry@0.1.788 OK for:  want: 0.1.788
+22 silly reify moves {}
+23 silly audit bulk request { 'types-registry': [ '0.1.788' ] }
+24 http cache types-registry@https://registry.npmjs.org/types-registry/-/types-registry-0.1.788.tgz 0ms (cache hit)
+25 silly tarball no local data for types-registry@https://registry.npmjs.org/types-registry/-/types-registry-0.1.788.tgz. Extracting by manifest.
+26 http fetch GET 200 https://registry.npmjs.org/npm 5266ms
+27 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 305ms
+28 silly audit report {}
+29 http fetch GET 200 https://registry.npmjs.org/types-registry/-/types-registry-0.1.788.tgz 9238ms (cache miss)
+30 silly ADD node_modules/types-registry
+31 verbose cwd C:\Users\19931\AppData\Local\Microsoft\TypeScript\6.0
+32 verbose os Windows_NT 10.0.26200
+33 verbose node v22.19.0
+34 verbose npm  v10.9.3
+35 notice
+35 notice New major version of npm available! 10.9.3 -> 12.1.0
+35 notice Changelog: https://github.com/npm/cli/releases/tag/v12.1.0
+35 notice To update run: npm install -g npm@12.1.0
+35 notice  { force: true, [Symbol(proc-log.meta)]: true }
+36 verbose exit 0
+37 info ok

@@ -1,0 +1,12 @@
+0 verbose cli D:\2025-05-01\nodejs22\node.exe D:\2025-05-01\nodejs22\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.3
+2 info using node@v22.19.0
+3 silly config load:file:D:\2025-05-01\nodejs22\node_modules\npm\npmrc
+4 silly config load:file:D:\game\frontend\.npmrc
+5 silly config load:file:C:\Users\19931\.npmrc
+6 silly config load:file:C:\Users\19931\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm run dev:vite
+8 verbose argv "run" "dev:vite"
+9 verbose logfile logs-max:10 dir:d:\game\frontend\.npm-cache\_logs\2026-09-27T05_08_38_078Z-
+10 verbose logfile d:\game\frontend\.npm-cache\_logs\2026-09-27T05_08_38_078Z-debug-0.log
+11 silly logfile done cleaning log files

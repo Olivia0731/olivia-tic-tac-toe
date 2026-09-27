@@ -1,0 +1,86 @@
+0 verbose cli D:\2025-05-01\nodejs22\node.exe D:\2025-05-01\nodejs22\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.3
+2 info using node@v22.19.0
+3 silly config load:file:D:\2025-05-01\nodejs22\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\19931\AppData\Local\Microsoft\TypeScript\6.0\.npmrc
+5 silly config load:file:C:\Users\19931\.npmrc
+6 silly config load:file:C:\Users\19931\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install @types/react@ts6.0 @types/react-dom@ts6.0 @types/node@ts6.0
+8 verbose argv "install" "--ignore-scripts" "@types/react@ts6.0" "@types/react-dom@ts6.0" "@types/node@ts6.0" "--save-dev" "--user-agent" "typesInstaller/6.0.2"
+9 verbose logfile logs-max:10 dir:d:\game\frontend\.npm-cache\_logs\2026-09-27T04_59_43_304Z-
+10 verbose logfile d:\game\frontend\.npm-cache\_logs\2026-09-27T04_59_43_304Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly packumentCache corgi:https://registry.npmjs.org/@types%2freact cache-miss
+14 silly packumentCache corgi:https://registry.npmjs.org/@types%2freact-dom cache-miss
+15 silly packumentCache corgi:https://registry.npmjs.org/@types%2fnode cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/@types%2freact-dom 2861ms (cache miss)
+17 silly packumentCache corgi:https://registry.npmjs.org/@types%2freact-dom set size:undefined disposed:false
+18 http fetch GET 200 https://registry.npmjs.org/@types%2freact 5274ms (cache miss)
+19 silly packumentCache corgi:https://registry.npmjs.org/@types%2freact set size:undefined disposed:false
+20 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 11378ms (cache miss)
+21 silly packumentCache corgi:https://registry.npmjs.org/@types%2fnode set size:undefined disposed:false
+22 silly idealTree buildDeps
+23 silly fetch manifest @types/react-dom@19.3.0
+24 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/@types%2freact-dom 1905ms (cache miss)
+26 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom set size:undefined disposed:false
+27 silly fetch manifest @types/react@19.3.0
+28 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/@types%2freact 3421ms (cache miss)
+30 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:undefined disposed:false
+31 silly fetch manifest @types/node@26.6.3
+32 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 14401ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:undefined disposed:false
+35 silly placeDep ROOT @types/node@26.6.3 OK for:  want: 26.6.3
+36 silly placeDep ROOT @types/react@19.3.0 OK for:  want: 19.3.0
+37 silly placeDep ROOT @types/react-dom@19.3.0 OK for:  want: 19.3.0
+38 silly fetch manifest undici-types@~8.9.0
+39 silly packumentCache full:https://registry.npmjs.org/undici-types cache-miss
+40 silly fetch manifest csstype@^3.2.2
+41 silly packumentCache full:https://registry.npmjs.org/csstype cache-miss
+42 http fetch GET 200 https://registry.npmjs.org/csstype 983ms (cache miss)
+43 silly packumentCache full:https://registry.npmjs.org/csstype set size:undefined disposed:false
+44 http fetch GET 200 https://registry.npmjs.org/undici-types 1256ms (cache miss)
+45 silly packumentCache full:https://registry.npmjs.org/undici-types set size:undefined disposed:false
+46 silly placeDep ROOT undici-types@8.9.0 OK for: @types/node@26.6.3 want: ~8.9.0
+47 silly placeDep ROOT csstype@3.2.3 OK for: @types/react@19.3.0 want: ^3.2.2
+48 silly reify moves {}
+49 silly audit bulk request {
+49 silly audit   'types-registry': [ '0.1.788' ],
+49 silly audit   '@types/node': [ '26.6.3' ],
+49 silly audit   '@types/react': [ '19.3.0' ],
+49 silly audit   '@types/react-dom': [ '19.3.0' ],
+49 silly audit   'undici-types': [ '8.9.0' ],
+49 silly audit   csstype: [ '3.2.3' ]
+49 silly audit }
+50 http cache @types/react-dom@https://registry.npmjs.org/@types/react-dom/-/react-dom-19.3.0.tgz 1ms (cache hit)
+51 http cache csstype@https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz 0ms (cache hit)
+52 http cache undici-types@https://registry.npmjs.org/undici-types/-/undici-types-8.9.0.tgz 0ms (cache hit)
+53 silly tarball no local data for @types/react-dom@https://registry.npmjs.org/@types/react-dom/-/react-dom-19.3.0.tgz. Extracting by manifest.
+54 silly tarball no local data for csstype@https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz. Extracting by manifest.
+55 silly tarball no local data for undici-types@https://registry.npmjs.org/undici-types/-/undici-types-8.9.0.tgz. Extracting by manifest.
+56 http cache @types/node@https://registry.npmjs.org/@types/node/-/node-26.6.3.tgz 0ms (cache hit)
+57 http cache @types/react@https://registry.npmjs.org/@types/react/-/react-19.3.0.tgz 1ms (cache hit)
+58 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-26.6.3.tgz. Extracting by manifest.
+59 silly tarball no local data for @types/react@https://registry.npmjs.org/@types/react/-/react-19.3.0.tgz. Extracting by manifest.
+60 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 347ms
+61 silly audit report {}
+62 http fetch GET 200 https://registry.npmjs.org/@types/react-dom/-/react-dom-19.3.0.tgz 1066ms (cache miss)
+63 http fetch GET 200 https://registry.npmjs.org/@types/react/-/react-19.3.0.tgz 2748ms (cache miss)
+64 http fetch GET 200 https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz 2985ms (cache miss)
+65 http fetch GET 200 https://registry.npmjs.org/undici-types/-/undici-types-8.9.0.tgz 3680ms (cache miss)
+66 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-26.6.3.tgz 4915ms (cache miss)
+67 silly ADD node_modules/csstype
+68 silly ADD node_modules/undici-types
+69 silly ADD node_modules/@types/react-dom
+70 silly ADD node_modules/@types/react
+71 silly ADD node_modules/@types/node
+72 verbose cwd C:\Users\19931\AppData\Local\Microsoft\TypeScript\6.0
+73 verbose os Windows_NT 10.0.26200
+74 verbose node v22.19.0
+75 verbose npm  v10.9.3
+76 verbose exit 0
+77 info ok
+78 error A complete log of this run can be found in: d:\game\frontend\.npm-cache\_logs\2026-09-27T04_59_43_304Z-debug-0.log
