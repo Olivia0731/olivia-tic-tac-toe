@@ -156,9 +156,6 @@ The landing page showcases the game's features, including multiplayer gameplay, 
 
 #### Dark Mode
 
-<p align="center">
-  <img src="images/landing-dark.png" alt="Landing Page (Dark Mode)" width="100%" style="border-radius: 8px">
-</p>
 
 ### Game Page
 
@@ -166,53 +163,28 @@ The game page allows users to play Tic Tac Toe against friends or AI, with real-
 
 #### Light Mode
 
-<p align="center">
-  <img src="images/game.png" alt="Game Page" width="100%" style="border-radius: 8px">
-</p>
 
 #### Dark Mode
 
-<p align="center">
-  <img src="images/game-dark.png" alt="Game Page (Dark Mode)" width="100%" style="border-radius: 8px">
-</p>
 
 ### Game Play
 
 The game page features a responsive game board with real-time updates for player moves and game results.
 
-<p align="center">
-  <img src="images/gameplay.png" alt="Game Play" width="100%" style="border-radius: 8px">
-</p>
 
 ### Player vs AI Mode
 
 The game page allows users to play against an AI opponent with varying difficulty levels (easy, medium, hard).
 
-<p align="center">
-  <img src="images/ai.png" alt="Player vs AI Mode" width="100%" style="border-radius: 8px">
-</p>
 
-<p align="center">
-  <img src="images/ai-dark.png" alt="AI Difficulty Levels" width="100%" style="border-radius: 8px">
-</p>
 
 ### Local Player vs. Player Mode
 
 The game page also allows users to play against friends locally on the same device.
 
-<p align="center">
-  <img src="images/local.png" alt="Local Player vs. Player Mode" width="100%" style="border-radius: 8px">
-</p>
-
-<p align="center">
-  <img src="images/local-dark.png" alt="Local Player vs. Player Mode (Dark Mode)" width="100%" style="border-radius: 8px">
-</p>
 
 **Example of multiple board sizes**: 8x8
 
-<p align="center">
-  <img src="images/8x8.png" alt="8x8 Board Size" width="100%" style="border-radius: 8px">
-</p>
 
 ### Online Player vs. Player Mode
 
@@ -220,40 +192,20 @@ The game page also enables users to play against other players online in real-ti
 
 **Demo GIF**:
 
-<p align="center">
-  <img src="./images/demo.gif" alt="Demo Video">
-</p>
 
 > [!TIP]
 > Our apologies for the low quality of the GIF. Please visit the live app to experience the real-time online gameplay! 🎮
 
 **Pre-Matchmaking**
 
-<p align="center">
-  <img src="images/pre-matchmaking.png" alt="Online Player vs. Player Mode" width="100%" style="border-radius: 8px">
-</p>
 
 **Matchmaking in Progress (Finding Opponent)**
 
-<p align="center">
-  <img src="images/matchmaking-in-progress.png" alt="Online Player vs. Player Mode" width="100%" style="border-radius: 8px">
-</p>
-
 **Matchmaking Success (Found Opponent)**
 
-<p align="center">
-  <img src="images/match-found.png" alt="Online Player vs. Player Mode" width="100%" style="border-radius: 8px">
-</p>
 
 **Game in Progress (Online Match)**
 
-<p align="center">
-  <img src="images/online.png" alt="Online Player vs. Player Mode" width="100%" style="border-radius: 8px">
-</p>
-
-<p align="center">
-  <img src="images/online-dark.png" alt="Online Player vs. Player Mode (Dark Mode)" width="100%" style="border-radius: 8px">
-</p>
 
 ### Leaderboard Page
 
@@ -261,15 +213,9 @@ The leaderboard page displays the top-ranked players globally. Users can view th
 
 #### Light Mode
 
-<p align="center">
-  <img src="images/leaderboard.png" alt="Leaderboard Page" width="100%" style="border-radius: 8px">
-</p>
 
 #### Dark Mode
 
-<p align="center">
-  <img src="images/leaderboard-dark.png" alt="Leaderboard Page (Dark Mode)" width="100%" style="border-radius: 8px">
-</p>
 
 ### Profile Page
 
@@ -277,23 +223,12 @@ The profile page allows users to view and update their profile information, incl
 
 #### Light Mode
 
-<p align="center">
-  <img src="images/profile.png" alt="Profile Page" width="100%" style="border-radius: 8px">
-</p>
 
 #### Dark Mode
-
-<p align="center">
-  <img src="images/profile-dark.png" alt="Profile Page (Dark Mode)" width="100%" style="border-radius: 8px">
-</p>
 
 #### Profile Search
 
 The profile page also features a search bar to find other users by their username.
-
-<p align="center">
-  <img src="images/profile-search.png" alt="Profile Search" width="100%" style="border-radius: 8px">
-</p>
 
 ### Login Page
 
@@ -301,15 +236,9 @@ The login page allows users to sign in with their email and password, with optio
 
 #### Light Mode
 
-<p align="center">
-  <img src="images/login.png" alt="Login Page" width="100%" style="border-radius: 8px">
-</p>
 
 #### Dark Mode
 
-<p align="center">
-  <img src="images/login-dark.png" alt="Login Page (Dark Mode)" width="100%" style="border-radius: 8px">
-</p>
 
 ### Registration Page
 
@@ -317,15 +246,9 @@ The registration page enables new users to create an account with their email, u
 
 #### Light Mode
 
-<p align="center">
-  <img src="images/register.png" alt="Registration Page" width="100%" style="border-radius: 8px">
-</p>
 
 #### Dark Mode
 
-<p align="center">
-  <img src="images/register-dark.png" alt="Registration Page (Dark Mode)" width="100%" style="border-radius: 8px">
-</p>
 
 ### Forgot Password Page
 
@@ -333,15 +256,8 @@ The forgot password page allows users to recover their account by verifying thei
 
 #### Light Mode
 
-<p align="center">
-  <img src="images/forgot-password.png" alt="Forgot Password Page" width="100%" style="border-radius: 8px">
-</p>
-
 #### Dark Mode
 
-<p align="center">
-  <img src="images/forgot-password-dark.png" alt="Forgot Password Page (Dark Mode)" width="100%" style="border-radius: 8px">
-</p>
 
 ### Responsive Design
 
@@ -349,17 +265,10 @@ The forgot password page allows users to recover their account by verifying thei
 
 The app is fully responsive, providing an optimal experience on mobile devices with smooth transitions and interactive elements.
 
-<p align="center">
-  <img src="images/mobile-view.png" alt="Mobile View" width="50%" style="border-radius: 8px">
-</p>
-
 #### Mobile Drawer
 
 The mobile drawer allows users to navigate between pages and access their profile, leaderboard, and settings.
 
-<p align="center">
-  <img src="images/mobile-drawer.png" alt="Mobile Drawer" width="50%" style="border-radius: 8px">
-</p>
 
 ## **File Structure**
 
